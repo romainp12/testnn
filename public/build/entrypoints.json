@@ -1,0 +1,60 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_core-js_internals_export_js-node_modules_core-js_internals_to-object_js.js",
+        "/build/vendors-node_modules_symfony_stimulus-bridge_dist_index_js-node_modules_core-js_modules_es_ob-28f194.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
+      ]
+    },
+    "doc": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_core-js_internals_export_js-node_modules_core-js_internals_to-object_js.js",
+        "/build/vendors-node_modules_core-js_modules_es_array_concat_js-node_modules_core-js_modules_es_objec-6b6f75.js",
+        "/build/doc.js"
+      ]
+    },
+    "doc1": {
+      "js": [
+        "/build/runtime.js",
+        "/build/doc1.js"
+      ],
+      "css": [
+        "/build/doc1.css"
+      ]
+    },
+    "doc2": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_core-js_internals_export_js-node_modules_core-js_internals_to-object_js.js",
+        "/build/vendors-node_modules_core-js_modules_es_array_concat_js-node_modules_core-js_modules_es_objec-6b6f75.js",
+        "/build/vendors-node_modules_core-js_modules_es_array-buffer_constructor_js-node_modules_core-js_modu-dc2937.js",
+        "/build/vendors-node_modules_core-js_modules_es_array_find-index_js-node_modules_core-js_modules_es_d-5f3799.js",
+        "/build/doc2.js"
+      ]
+    },
+    "doc3": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_core-js_internals_export_js-node_modules_core-js_internals_to-object_js.js",
+        "/build/vendors-node_modules_core-js_modules_es_array_concat_js-node_modules_core-js_modules_es_objec-6b6f75.js",
+        "/build/vendors-node_modules_core-js_modules_es_array-buffer_constructor_js-node_modules_core-js_modu-dc2937.js",
+        "/build/doc3.js"
+      ]
+    },
+    "doc4": {
+      "js": [
+        "/build/runtime.js",
+        "/build/doc4.js"
+      ],
+      "css": [
+        "/build/doc4.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+authentication_token:
+  path: /authentication_token
+  methods: ["POST"]
+
+gesdinet_jwt_refresh_token:
+  path: /api/token/refresh
+  controller: gesdinet.jwtrefreshtoken::refresh
+
+index:
+  path: /
+  controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::redirectAction
+  defaults:
+    route: "api_entrypoint"
+    permanent: false

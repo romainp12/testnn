@@ -1,0 +1,14 @@
+api_platform:
+  title: "Ndombi API"
+  version: 1.0
+  mapping:
+    paths: ["%kernel.project_dir%/src/Entity", "%kernel.project_dir%/public/bundles/apiplatform"]
+  patch_formats:
+    multipart: ["multipart/form-data"]
+    json: ["application/json", "application/ld+json"]
+  swagger:
+    api_keys:
+      apiKey:
+        name: Authorization
+        type: header
+  enable_swagger_ui: true
